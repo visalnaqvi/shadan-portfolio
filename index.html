@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shadan Hasnain Zaidi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Internships</a></li>
+          <li><a href="#certi">Certificates</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nurul Hasnain Zaidi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#certi" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="profile" src="./assets/profile-pic.jpeg" alt="Nurul Hasnain Zaidi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shadan Hasnain Zaidi</h1>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://drive.google.com/file/d/1AtOxy7-8xfeC0GDu8X-QJYVpKBQ9RS_8/view?usp=drivesdk'"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/nurulhasnain'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/nurulhasnain'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.svg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Zomato Pvt. Ltd.<br />Deepchand Bandhu Govt Hospital<br />Medical Transcriptionist</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B. Pharm</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello, I'm Shadan, a dedicated pharmacy student at [Your University], expected to graduate in 2025. My passion for practical knowledge has driven me to pursue several internships and a certificate course, with a strong focus on patient handling. 
+<br></br>
+In addition to my pharmaceutical studies, I have honed my marketing and sales skills through diverse experiences. Notably, during my internship at Zomato, I successfully closed significant deals, showcasing my ability to pitch and communicate effectively. 
+<br></br>
+With a robust background in both healthcare and marketing, I am eager to bring my skills and enthusiasm to new challenges and opportunities. Welcome to my portfolio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Internships</h1>
+      <div class="experience-details-container">
+        
+
+        <div class="about-containers int">
+          
+          <div class="details-container">
+            <div class="content">
+            <div class="article-container">
+              <img style="margin:25px 0;border-radius: 0;"
+                src="./assets/zomato.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="details-container-title">
+              <h2 class="experience-sub-title">Zomato Pvt. Ltd.</h2>
+              <ul>
+              <li>  <h3 class="experience-sub-title"> Aquisition Ninja | Full Time | Paid</h3></li>
+               <li> <h3 class="experience-sub-title"> 2 Months | May 2024 to June 2024</h3></li>
+  
+              </ul>
+            </div>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>My role was to onboard the restaurants which are not on zomato platform till yet. 
+                    
+                    
+                    
+                    
+                    </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>Skills acquired are- marketing and sales skills, merchant convincing skills, pitching, trust making, professional communication, problem solving, growth.
+                    
+                    
+                   
+                    
+                    </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p> Cracked one of the biggest deals where I have been onboardings teasta tea sec 37 outlet (owner - V.K MEHRA) after several meetings and pitches, for which zomato was chasing since 8 years.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>I have onboarding 50+ restaurants during my internship from which 40+ went live.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>I was in super ninja category thus I was with top performers during my internship</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="int-image-container">
+            <img src="./assets/zomato2.jpeg" />
+            <img src="./assets/zomato1.jpeg" />
+          </div>
+          </div>
+          
+        </div>
+
+        <div class="about-containers int">
+ 
+          <div class="details-container">
+            <div class="content">
+            <div class="article-container">
+              <img style="margin-bottom:20px  ; height: 100px; width: 100px;"
+                src="./assets/deep.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="details-container-title">
+              <h2 class="experience-sub-title">Deepchand Bandhu Govt  Hospital </h2>
+              <ul>
+              <li>  <h3 class="experience-sub-title">Clinical Pharmacist | Full Time</h3></li>
+               <li> <h3 class="experience-sub-title"> 1 Month</h3></li>
+  
+              </ul>
+            </div>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>At Deepchand Bandhu Govt  Hospital my role was a pharmacist for 1month.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>Contributed to the improvement of hospital pharmaceutical practices by conducting detailed prescription audits and IPD/OPD audits with accurate stock verification.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>I have learned patient handling, prescription reading, medications according to age ratio, side effects of medications etc.</p>
+                </div>
+              </article>
+            </div>
+            </div>
+            <div class="int-image-container">
+              <img src="./assets/deep1.jpeg" />
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="about-containers">
+ 
+          <div class="details-container">
+            <div class="article-container">
+              <img
+              style="width: 120px;height: 100px;"
+                src="./assets/du.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="details-container-title">
+              <h2 class="experience-sub-title">Medical transcription certification course (2020) from DU</h2>
+              <ul>
+              <li>  <h3 class="experience-sub-title">Medical Transcriptionist</h3></li>
+               <li> <h3 class="experience-sub-title"> 2 Months</h3></li>
+  
+              </ul>
+            </div>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>Learned about verious terminologies, personal development, communication skills, medical writing, discharge summaries.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>Did internship at Dr Natasha's ultrasound and imaging centre as medical transcriptionist (month's), where I had learned about patient handling, Prescription reading, report making.
+                    </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <p>Acquired proficient animal handling skills, including dosing and
+                    anesthesia administration
+                    </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section>
+      <h1 class="title">Inspiring Day at the 3rd National Pharmacovigilance Week</h1>
+      <p style="text-align: center;margin-top: 10px;margin-bottom: 30px;">Attended An Inspiring Day to represent Amity University Noida Uttar Pradesh at the Heart of Pharmacy! 🏛️🔬 The 3rd National Pharmacovigilance Week event held at the "Indian Pharmacopoeia Commission, Ghaziabad" was a glimpse into the HQ of pharmacy excellence. A truly enlightening experience that left me in awe!</p>
+      <div class="visit-img-container">
+        <div class="visit-img-container-inner">
+        <img src="./assets/visit.jpeg" />
+        <img src="./assets/visit2.jpeg" />
+      </div>
+        <img src="./assets/visit1.jpeg" />
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="certi">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Certifications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="top">
+              <div class="article-container certi">
+                <img style="margin:25px 0"
+                  src="./assets/c1.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Pharmacy internship certificate</h2>
+            </div>
+          
+          </div>
+          <div class="details-container color-container">
+            <div class="top">
+              <div class="article-container certi">
+                <img
+                  src="./assets/c3.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Medical transcription intership certificate</h2>
+              <br>
+              
+            </div>
+           
+          </div>
+         
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="top">
+              <div class="article-container certi">
+                <img style="margin:25px 0"
+                  src="./assets/c4.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Zomato internship certificate</h2>
+            </div>
+          
+          </div>
+          <div class="details-container color-container">
+            <div class="top">
+              <div class="article-container certi">
+                <img
+                  src="./assets/c5.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Zomato transcription intership certificate</h2>
+              <br>
+              
+            </div>
+           
+          </div>
+         
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="top">
+              <div class="article-container certi">
+                <img style="margin:25px 0"
+                  src="./assets/visit.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">certificate of Participation</h2>
+            </div>
+          
+          </div>
+          <div class="details-container color-container">
+            <div class="top">
+              <div class="article-container certi">
+                <img
+                  src="./assets/c2.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Medical transcription course certificate</h2>
+              <br>
+              
+            </div>
+           
+          </div>
+         
+        </div>
+      </div>
+    </section>
+   
+    <section id="skills">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+                <div class="skill-container">
+                  <div class="skill-container-inner">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <p>Market Pitching</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <p>Communication
+                      </p>
+                    </div>
+                  </article>
+                </div>
+                <div class="skill-container-inner">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <p>Patient/customer handling
+                      </p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <p>Medical writing
+                      </p>
+                    </div>
+                  </article>
+                  </div>
+                </div>
+
+                <div class="skill-container">
+                  <div class="skill-container-inner">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <p>Preparation of discharge
+                        summary</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <p>Prescription Handling</p>
+                    </div>
+                  </article>
+                  </div>
+                
+                </div>
+
+              
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="tel:+919953418042 ">+91-9818065476</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nurulhasnain07@gmail.com">shadanhasnainzaidi@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/shadan-hasnain-zaidi-a839a925a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Internships</a></li>
+            <li><a href="#certi">Certificates</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Shadan Hasnain. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
