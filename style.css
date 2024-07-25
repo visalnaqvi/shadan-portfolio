@@ -479,6 +479,7 @@ footer p {
 
 .skill-container p{
   font-weight: 700;
+  text-align: left;
 }
 
 .skill-container article{
