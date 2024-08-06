@@ -65,6 +65,9 @@
     height: 100%;
     justify-content: center;
   }
+  .some .int-image-container img{
+    width: 300px;
+  }
 }
 
 @media screen and (max-width:900px){
@@ -87,6 +90,15 @@
     flex-direction: column;
   }
 
+
+  .some .int-image-container{
+    flex-direction: column;
+   }
+
+   .some .int-image-container img{
+    width: 90%;
+    margin-top: 20px;
+   }
 
 }
 
